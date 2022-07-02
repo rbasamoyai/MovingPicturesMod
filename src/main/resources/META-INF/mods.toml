@@ -1,0 +1,28 @@
+modLoader="javafml" 
+loaderVersion="[40,)" 
+license="MIT License"
+
+[[mods]] 
+modId="examplemod"
+version="${file.jarVersion}"
+displayName="Moving Pictures"
+
+logoFile="logo.png"
+credits="rbasamoyai"
+
+authors="Made by rbasamoyai"
+description='''Made for ForgeJam 2022'''
+
+[[dependencies.examplemod]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[40,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
